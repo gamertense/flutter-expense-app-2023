@@ -62,7 +62,7 @@ class MyApp extends StatelessWidget {
               ),
             ),
       ),
-      // themeMode: ThemeMode.system, // default
+      themeMode: ThemeMode.system, // default
       home: const Expenses(),
     );
   }
