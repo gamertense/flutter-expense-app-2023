@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 class ChartBar extends StatelessWidget {
+  final double fill;
+
   const ChartBar({
     super.key,
     required this.fill,
   });
-
-  final double fill;
 
   @override
   Widget build(BuildContext context) {
